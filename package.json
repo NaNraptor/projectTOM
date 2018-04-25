@@ -1,0 +1,20 @@
+{
+  "name": "theonlinemaze",
+  "version": "1.1.8",
+  "private": true,
+  "description": "A level project by Nanyo Nanev",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nanyo Nanev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "file-system": "^2.2.2",
+    "https": "^1.0.0",
+    "nodemon": "^1.17.1",
+    "pg": "^7.4.1",
+    "socket.io": "^2.0.4"
+  }
+}
