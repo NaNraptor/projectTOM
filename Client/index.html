@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<meta charset="utf-8" name="viewport" content="yes, user-scalable=no"/>
+<html>
+    <head>
+        <title>The online maze</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body  onload="init()">
+        <table id="leaguetable" class="tg">
+            <tr>
+                <th class="tg-baqh" colspan="4">Top Players<br></th>
+            </tr>
+            <tr>
+                <th id="table_row0A" class="tg-baqh">#</th>
+                <th id="table_row0B" class="tg-baqh">name</th>
+                <th id="table_row0C" class="tg-baqh">seed</th>
+                <th id="table_row0D" class="tg-baqh">time (ms)</th>
+            </tr>
+            <tr>
+                <td class="tg-baqh">1</td>
+                <td id="table_row00" class="tg-baqh"></td>
+                <td id="table_row01" class="tg-baqh"></td>
+                <td id="table_row02" class="tg-baqh"><br></td>
+            </tr>
+            <tr>
+                <td class="tg-baqh">2</td>
+                <td id="table_row10" class="tg-baqh"></td>
+                <td id="table_row11" class="tg-baqh"></td>
+                <td id="table_row12" class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-baqh">3</td>
+                <td id="table_row20" class="tg-baqh"></td>
+                <td id="table_row21" class="tg-baqh"></td>
+                <td id="table_row22" class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-baqh">4</td>
+                <td id="table_row30" class="tg-baqh"></td>
+                <td id="table_row31" class="tg-baqh"></td>
+                <td id="table_row32" class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-baqh">5</td>
+                <td id="table_row40" class="tg-baqh"></td>
+                <td id="table_row41" class="tg-baqh"></td>
+                <td id="table_row42" class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-baqh">6</td>
+                <td id="table_row50" class="tg-baqh"></td>
+                <td id="table_row51" class="tg-baqh"></td>
+                <td id="table_row52" class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-baqh">7</td>
+                <td id="table_row60" class="tg-baqh"></td>
+                <td id="table_row61" class="tg-baqh"></td>
+                <td id="table_row62" class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-baqh">8</td>
+                <td id="table_row70" class="tg-baqh"></td>
+                <td id="table_row71" class="tg-baqh"></td>
+                <td id="table_row72" class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-baqh">9</td>
+                <td id="table_row80" class="tg-baqh"></td>
+                <td id="table_row81" class="tg-baqh"></td>
+                <td id="table_row82" class="tg-baqh"></td>
+            </tr>
+            <tr>
+                <td class="tg-baqh">10</td>
+                <td id="table_row90" class="tg-baqh"></td>
+                <td id="table_row91" class="tg-baqh"></td>
+                <td id="table_row92" class="tg-baqh"></td>
+            </tr>
+        </table>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.3/seedrandom.min.js"></script>
+        <script src="socket.io/socket.io.js"></script>
+
+        <canvas tabindex="0" id="canvas-id" width="0" height="0">
+            <script src="support.js"></script>
+            <script src="main.js"></script>
+            <script src="mobile.js"></script>
+            <script src="init.js"></script>
+            <script src="events.js"></script>
+            <script src="maze.js"></script>
+            <script src="player.js"></script>
+        </canvas>
+
+    </body>
+</html>
